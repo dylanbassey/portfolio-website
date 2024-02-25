@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Aston University",
+    location: "Birmingham, UK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated in 2022 with an upper second class honours in BSc Computer Science and Mathematics.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019-2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Cross-Platform Architect, Vodafone",
+    location: "London, UK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a cross-platform architect for 6 months as my first rotation in Vodafone.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022-2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Developer, Vodafone",
+    location: "London, UK",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Working as a full-stack developer for 6 months on my second rotation using technologies such as React(TypeScript) for the front-end, Java Springboot for the back-end.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - 2023",
+  },
+  {
+    title: "Full-Stack Developer, Vodafone",
+    location: "London, UK",
+    description:
+      "Working as a full-stack app developer using technologies such as React-Native(TypeScript) for the front-end, GoLang for the back-end while also using Terraform and AWS Lambda functions.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Present",
   },
 ] as const;
 
@@ -94,14 +102,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Terraform",
   "Framer Motion",
+  "GoLang",
+  "AWS",
+  "AWS Lambda",
 ] as const;

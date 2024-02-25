@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import useSectionInView from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import profilePicture from "@/public/profile-picture.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -30,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+              src={profilePicture}
               alt="Dylan Bassey"
               width="192"
               height="192"
@@ -60,11 +61,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Dylan.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
+        <span className="font-bold">2 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">React (TypeScript)</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -95,14 +96,14 @@ export default function Intro() {
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-[1.15] active:scale-[1.15] hover:text-gray-950 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://linkedin.com/in/dylan-bassey-6aa966194"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
           className="bg-white p-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/dylanbassey"
           target="_blank"
         >
           <FaGithubSquare />
