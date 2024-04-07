@@ -40,31 +40,23 @@ export const experiencesData = [
     description:
       "I graduated in 2022 with an upper second class honours in BSc Computer Science and Mathematics.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019-2022",
+    date: "2019 - 2022",
   },
   {
-    title: "Cross-Platform Architect, Vodafone",
-    location: "London, UK",
+    title: "University Teaching Assistant, Aston University",
+    location: "Birmingham, UK",
     description:
-      "I worked as a cross-platform architect for 6 months as my first rotation in Vodafone.",
+      "Assisted students with programming queries and problems in Java. ",
     icon: React.createElement(CgWorkAlt),
-    date: "2022-2023",
+    date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer, Vodafone",
+    title: "Software Engineer, Vodafone",
     location: "London, UK",
     description:
-      "Working as a full-stack developer for 6 months on my second rotation using technologies such as React(TypeScript) for the front-end, Java Springboot for the back-end.",
-    icon: React.createElement(FaReact),
-    date: "2023 - 2023",
-  },
-  {
-    title: "Full-Stack Developer, Vodafone",
-    location: "London, UK",
-    description:
-      "Working as a full-stack app developer using technologies such as React-Native(TypeScript) for the front-end, GoLang for the back-end while also using Terraform and AWS Lambda functions.",
-    icon: React.createElement(FaReact),
-    date: "2023 - Present",
+      "Working as a software engineer using various technologies, front-end and back-end.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - Present",
   },
 ] as const;
 

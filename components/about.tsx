@@ -18,29 +18,21 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        BSc Final Year Student in{" "}
-        <span className="font-medium">Computer Science and Mathematics </span>at
-        Aston University currently working towards achieving a 2:1. A highly
-        motivated and hardworking individual, achieving excellent GCSEs and A
-        Levels at one of the top grammar schools. Looking to use my passion for
-        technology and considerable experience within IT and programming for a
-        graduate role in a{" "}
-        <span className="font-medium">
-          technological based corporate environment
-        </span>
-        . Having led a team in a business environment, I can carry many
-        leadership qualities into this field. Applying my problem-solving and
-        critical thinking skills gained from the mathematics modules helps to
-        ensure the complex technological requirements from the customer are met.
-        <span className="italic">
-          {" "}
-          Building technological relations between the user and the platform is
-          quintessential to the success of this role, benefitted by my years of
-          experience forming relationships.
-        </span>{" "}
-        Having the ability to deliver technical expertise through presentations
-        and demonstrations will help customers understand the value of specific
-        technologies to their company.
+        With a solid foundation in Computer Science, having graduated with a 2:1
+        in{" "}
+        <span className="font-medium">Computer Science and Mathematics </span>{" "}
+        at Aston University, and over two years of proven experience, I bring a
+        dynamic blend of technical proficiency and problem-solving acumen to the
+        table. As a highly motivated and hardworking individual, achieving
+        excellent GCSEs and A Levels at one of the top grammar schools has been
+        a significant achievement. Specializing in{" "}
+        <span className="font-medium">JavaScript</span> and its supporting
+        languages/libraries/frameworks I have honed my skills to tackle
+        real-world challenges effectively. My tenure at Vodafone has not only
+        fortified my technical ability but has also provided me with invaluable
+        insights into industry-standard development practices for which I'm
+        seeking an opportunity to apply and contribute to the dynamic growth
+        trajectory of a forward-thinking enterprise like yours.
       </p>
     </motion.section>
   );
